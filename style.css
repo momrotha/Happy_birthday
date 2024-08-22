@@ -3,7 +3,6 @@ body, html {
   padding: 0;
   width: 100%;
   height: 100%;
-  background: #f0f8ff; /* Light blue background */
   background-image: url('./image/pg1.jpg');
   font-family: Arial, sans-serif;
 }
@@ -27,50 +26,16 @@ body, html {
   animation: fadeIn 4s ease-in-out;
 }
 
-.balloons {
-  position: relative;
-  margin-top: 30px;
+button {
+  padding: 10px 20px;
+  background-color: rgb(232, 166, 191) ;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
 }
-
-.balloon {
-  width: 50px;
-  height: 70px;
-  background-color: #ff69b4;
-  border-radius: 50% 50% 50% 50%;
-  position: absolute;
-  animation: float 5s ease-in-out infinite;
-}
-
-.balloon:after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: -20px;
-  width: 2px;
-  height: 50px;
-  background-color: #ffffff;
-  transform: translateX(-50%);
-}
-
-.balloon.one {
-  background-color: #ff69b4;
-  left: 20%;
-  animation-delay: 0s;
-}
-
-.balloon.two {
-  background-color: #ffd700;
-  left: 50%;
-  animation-delay: 2s;
-}
-
-.balloon.three {
-  background-color: #8a2be2;
-  left: 80%;
-  animation-delay: 4s;
-}
-
 .image-gallery {
+  text-align: center;
   position: relative;
   width: 100%;
   height: auto;
