@@ -1,3 +1,4 @@
+//sound
 document.getElementById("play-button").addEventListener("click", function() {
     var audio = document.getElementById("birthday-audio");
     audio.play().catch(function(error) {
