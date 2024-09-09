@@ -11,3 +11,4 @@ document.getElementById("stop-button").addEventListener("click", function() {
     audio.pause();
     audio.currentTime = 0; // Reset audio to the beginning
 });
+
